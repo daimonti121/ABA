@@ -2,8 +2,8 @@ window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET
 
 var colors = ["#A109FF", "#FD372A", "#FED022", "#00C3E6",
               "#A109FF", "#FD372A", "#FED022", "#00C3E6"];
-var prizes = ["TRY AGAIN", "      100%           UP TO     300", "75 FS", "150 FS", "NO WIN", "       50%          UP TO     150", "200 FS", "       75%          UP TO     150"];
-
+var prizes = ["TRY AGAIN", "      100%           UP TO     300 AUD", "75 FS", "150 FS", "NO WIN", "        50%           UP TO      150 AUD", "200 FS", "        75%           UP TO      150 AUD"];
+  
 var startAngle = 0*Math.PI/180;
 var arc = (2 * Math.PI) / colors.length;
 var spinTimeout = null;
