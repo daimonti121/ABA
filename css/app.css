@@ -364,13 +364,15 @@
       overflow: visible;
       box-shadow: none;
       border-radius: 15px;
-      background-color: rgb(56 161 185);
+      background-color: #1a3a42;
       border: none;
       max-width: 100%;
       margin-right: auto;
       margin-left: auto;
       pointer-events: auto;
   }
+
+  
   #animatedModal *, #animatedModal2 *{
       font-family: 'RocknRoll One', sans-serif;
   }
@@ -447,7 +449,7 @@
       vertical-align: middle;
       padding: 5px 20px;
       border-radius: 28px;
-      background-color: #f8ca00;
+      background-color: #42ab30;
       background-image: none;
       min-height: 36px;
       font-size: 16px;
@@ -472,11 +474,11 @@
   }
   
   .btn:hover {
-      background: #f8ca00;
+      background: #328524;
   }
   
   .fancybox__content span {
-     color: #f8ca00;
+     color: #42ab30;
   }
   
   .btn {
@@ -484,7 +486,7 @@
   }
   
   .fancybox__content {
-      border: 4px solid #f8ca00!important;
+      border: 4px solid #42ab30!important;
   }
   
   .popupImg {
