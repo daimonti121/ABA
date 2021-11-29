@@ -2,8 +2,7 @@ window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET
 
 var colors = ["#A109FF", "#FD372A", "#FED022", "#00C3E6",
               "#A109FF", "#FD372A", "#FED022", "#00C3E6"];
-var prizes = ["TRY AGAIN", "      100%           UP TO     300 AUD", "75 FS", "150 FS", "NO WIN", "        50%           UP TO      150 AUD", "200 FS", "        75%           UP TO      150 AUD"];
-  
+var prizes = ["          TRENO           CONTRO", "       100%            FINO A     300 €", "75 FS", "150 FS", "    NESSUN   GUADAGNO", "         50%            FINO A       150 €", "200 FS", "        75%            FINO A      150 €"];
 var startAngle = 0*Math.PI/180;
 var arc = (2 * Math.PI) / colors.length;
 var spinTimeout = null;
@@ -27,7 +26,7 @@ function drawRouletteWheel() {
    
     ctx = canvas.getContext("2d");
     ctx.clearRect(0,0,500,500);
-    ctx.font = 'bold 14px Arial';
+    ctx.font = 'bold 13px Arial';
     ctx.textAlign = "center";
    
     for(var i = 0; i < colors.length; i++) {
